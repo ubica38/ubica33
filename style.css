@@ -1,0 +1,313 @@
+.body{
+    background: #FfFfFf;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 11000;
+}
+.header{
+    margin-top: -10px;
+    background: #FfFfFf;
+box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+
+}
+.content{
+
+  max-width: 760px;
+height: 72px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #FFFFFF;
+padding-left: 8px;
+padding-right: 18px;
+}
+.button{
+  background: white;
+}
+.button-shop-box{
+    width: 124px;
+    height: 40px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a{
+    color: #1D1D1D;
+    text-decoration: none;
+}
+.wrapper{
+ width: 100%;
+padding-bottom: 70px;
+ max-width: 960px;
+    margin: 0 auto;
+    padding-left: 8px;
+padding-right: 8px;
+
+}
+.button{
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.main{
+    max-width:960px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 18px;
+}
+.blocks{
+   
+    flex-direction: row;
+    flex-flow: row nowrap;
+}
+.moscow-restaurant{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 34px;
+padding-left: 8px;
+    padding-right: 18px;
+/* identical to box height, or 155% */
+
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+.search-box{
+height: 130px;
+    background:white;
+    margin-bottom: 16px;
+   
+}
+#input1{
+    margin-top: 55px;
+  border:white;
+    border-radius: 16px;
+width: 100%;
+  }
+  .search{
+      margin-top: 55px;
+    margin-top:-10px;
+    margin-left: auto;
+    width:100%;
+    height:1px;
+    background:black;
+    
+  }
+  .cards-box{
+    display: flex;
+    max-width: 1124px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  .card:active{
+    background: #757575;
+    mix-blend-mode: normal;
+    opacity: 0.04;
+  }
+.card{
+    margin-left: 6px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+width: 308px;
+height: 366px;
+flex-wrap: wrap;
+
+}
+
+.card-name-restaurant{
+    width: 308px;
+height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #1D1D1D;
+    
+}
+.card-food{
+width: 308px;
+height: 24px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #626262;
+}
+.card-time{
+    width: 308px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    /* identical to box height, or 162% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #1D1D1D;
+}
+
+.footer{
+    width: 100%;
+
+max-height: 862px;
+background: #262626;
+padding-top: 67px;
+
+}
+.footer-content{
+   max-height: 862px;
+    margin: 0 auto;
+    padding-left: 8px;
+padding-right: 8px;
+
+}
+.footer-logo{
+
+}
+.footer-line{
+  margin-left: auto;
+  width:100%;
+  height:1px;
+  background: white;
+mix-blend-mode: normal;
+opacity: 0.4;
+margin-top: 40px;
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-right: 97px;
+}
+.footer-main-left{
+display: flex;
+flex-direction: column;
+
+width: 227px;
+height: 130px;
+
+margin-bottom: 16px;
+}
+.footer-main-center{
+    display: flex;
+    width: 196px;
+    height: 94px;
+    
+    flex-direction: column;
+}
+.footer-main-right{
+width:67px;
+height: 115px;
+}
+.language{
+   margin-top: 0;
+   height: 40px;
+}
+.uberEats-icons-box{
+    display: flex;
+    flex-direction: column;
+    height: 56px; 
+    width: 88px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.UberEats{
+    height: 19px;
+    width: 72px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    background: slategray;
+}
+.block-margin{
+    margin-top: 20px;
+}
+.text{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+margin-bottom:16px;
+}
+.download{
+   margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.margin-right{
+    margin-right:120px;
+}
+.footer-end{
+    display: flex;
+   padding-top: 40px;
+   padding-bottom: -20px;
+   flex-wrap: wrap;
+}
+select{
+    width: auto;
+}
+select{
+ height: 40px;
+    background: #3B3B3B;
+    margin-bottom: 33px;
+  width: 100%;
+}
+option, select{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+}
